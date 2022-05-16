@@ -1,0 +1,105 @@
+/* Dark-Mode - General */
+
+nav, .footer {
+    background: #121212;
+}
+
+h1, p, label, span, a {
+    color: white;
+}
+
+img[src$=".svg"] {
+    filter: invert(1);
+}
+
+.inside-body {
+    background: #101010;
+}
+
+.img {
+    background: url(../img/dark-background.jpg);
+    background-size: cover;
+}
+
+.img-sub {
+    border-bottom: solid 5px white;
+}
+
+.mini-img {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-container {
+    border-right: rgba(0, 0, 0, 0);
+    border-left: rgba(0, 0, 0, 0);
+}
+
+.nav-container .menu-items {
+    background-color: rgb(10 10 10 / 70%);
+    box-shadow: none;
+}
+
+.navbar .menu-items li a {
+    color: rgb(255 255 255);
+}
+
+.hypertexts a img[src$="github.png"] {
+    filter: invert(1);
+}
+
+.footer a {
+    color: white;
+}
+
+/* Dark Mode - Recommendations */
+
+.rec-container h1 {
+    border-bottom: solid 5px white;
+}
+
+.rec-container-inner img {
+    border: solid 5px white;
+}
+
+/* Dark Mode - Playlists */
+
+.playlist-container-inner iframe {
+    border: 0.2em solid white;
+}
+
+.playlist-text span a {
+    color: white;
+}
+
+.playlist-text span a:hover {
+    font-weight: bold;
+    color: white;
+}
+
+/* Dark Mode - Where To Find Me */
+
+.ctt-container h1 {
+    border-bottom: solid 5px white;
+}
+
+.ctt-container-inner img {
+    border: solid 5px white;
+}
+
+/* Dark Mode - About Me */
+
+.text-cont h1 {
+    border-bottom: solid 5px white;
+}
+
+/* Dark Mode - Responsivity */
+
+@media (max-width: 1060px), (max-width: 1000px) {
+    .inside-body {
+        background: #0e2431;
+    }
+
+    .main-container {
+        background: #101010;
+    }
+}
