@@ -1,2 +1,4 @@
 # Site-Project
-First project involving HTML, CSS and JS.
+
+
+My first project involving HTML, CSS and JS since I started studying it.
