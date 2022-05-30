@@ -149,7 +149,7 @@
     background-color: white;
     width: 80%;
     margin: 0 10%;
-    min-height: 90vh;
+    min-height: 100vh;
   }
 
   .img {
@@ -170,7 +170,7 @@
     flex-direction: column;
     align-items: center;
     height: auto;
-    min-height: 90vh;
+    min-height: 100vh;
     border-left: 2px solid rgba(255, 255, 255, 0.5);
     border-right: 2px solid rgba(255, 255, 255, 0.5); 
   }

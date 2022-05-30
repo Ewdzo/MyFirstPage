@@ -1,9 +1,9 @@
 // Side-Menu Height
 
 function setHeight() {
-    let main = document.querySelector('body');
-    let mainheight = main.offsetHeight;
-    document.querySelector('.menu-items').style.height = mainheight + "px";
+    let body = document.querySelector('body');
+    let bodyheight = body.offsetHeight;
+    document.querySelector('.menu-items').style.height = bodyheight + "px";
 }
 
 setHeight()
