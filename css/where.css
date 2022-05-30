@@ -161,6 +161,13 @@
     border-right: 2px solid rgba(255, 255, 255, 0.5); 
   }
 
+  .main-container-inner {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    width: 100%;
+  }
+
   .img-container {
     width: 100%;
   }
@@ -187,6 +194,11 @@
     bottom: 0px;
     right: 0px;
     z-index: 1;
+  }
+
+  .mini-img img {
+    height: 50px; 
+    margin: 10px;
   }
 
   .img-sub {
@@ -309,6 +321,13 @@
   .footer a {
     color: black;
     text-decoration:none;
+    margin: 0 10px;
+    font-size: 1em;
+  }
+
+  .footer a img {
+    border-radius: 100%;
+    height: 40px;
   }
 
   /* Responsivity */
@@ -430,4 +449,9 @@
     position: absolute;
     top: 10px;
     right: 15px;
+  }
+
+  .dark-button img {
+    border-radius: 100%; 
+    height: 40px;
   }
