@@ -48,3 +48,5 @@ function load_() {
 // firstLoad
 
 load_()
+document.querySelector('body').onload = setHeight();
+checkbox.onclick = function() {DarkMode() + save()};
