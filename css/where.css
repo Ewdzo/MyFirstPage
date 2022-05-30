@@ -332,106 +332,58 @@
 
   /* Responsivity */
 
-  @media (max-width: 1060px) {
-    .inside-body {
-      width: 100%;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      background: #0e2431;
+  @media (max-width: 480px) {
+
+    .mini-img {
+      padding: 0;
     }
 
-      .main-container {
-        width: 80%;
-        background: white;
-      }
-
-    .ctt-hyperlink a img{
-      width: 243.25px;
+    .mini-img img {
+      height: 2.5em;
     }
 
-    .ctt-container h1 {
-      text-align: center;
+    .ctt-container {
+      margin: 1.5em 0;
     }
 
     .ctt-container-inner img {
-      width: 400px;
+      width: 225px;
+      padding: 5px;
     }
     
     .ctt-hyperlink a img {
-      width: 195px;
+      width: 100px;
+      padding: 3px;
     }
 
-    .img-sub {
-      min-width: 8em;
-    }
-  }
-
-  @media (max-width: 700px) {
-    .inside-body {
-      width: 100%;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      border-left: 1.5vw solid #0e2431;
-      border-right: 1.5vw solid #0e2431;
-    }
-
-    .main-container {
-      width: 100%;
-    }
-
-    .ctt-container h1 {
-      text-align: center;
+    .img {
+      padding: 50px;
     }
     
-    .img-sub {
-      min-width: 8em;
-    }
-  }
-
-  @media (max-width: 450px) {
-    .ctt-container-inner img {
-      width: 325px;
-    }
-    
-    .ctt-hyperlink a img {
-      width: 155px;
-    }
-
-    .inside-body {
-      width: 100%;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      border-left: 3vw solid #0e2431;
-      border-right: 3vw solid #0e2431;
-    }
-
-    .main-container {
-      width: 100%;
-    }
-
-    .img-sub {
-      min-width: 8em;
-    }
-
-    .img-inner {
-      padding: 30px;
-    }
-
     .img-inner a img {
-      height: 200px;
+      height: 10em;
       border-radius: 100%;
     }
 
+   .img-inner {
+     padding: 2em;
+    }
+
+    .img-sub {
+      min-width: 8em;
+    }
+
+    .inside-body {
+      font-size: 13px;
+    }
+
     .ctt-container h1 {
       text-align: center;
-      min-width: 300px;
+      min-width: 100px;
       font-size: 20px;
-      }
-    
-  }
+    }
+}
+
 
   /* Dark Mode */
 

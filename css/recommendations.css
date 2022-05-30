@@ -307,104 +307,57 @@
 
   /* Responsivity */
 
-  @media (max-width: 1060px) {
-    .inside-body {
-      width: 100%;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      background: #0e2431;
+  @media (max-width: 480px) {
+
+    .mini-img {
+      padding: 0;
     }
 
-      .main-container {
-        width: 80%;
-        background: white;
+    .mini-img img {
+      height: 2.5em;
+    }
+
+    .rec-container h1 {
+      text-align: center;
+      min-width: 150px;
+      font-size: 1.45em;
       }
 
-      .rec-hyperlink {
+    .rec-container-inner img {
+      width: 225px;
+      padding: 7px;
+    }
+    
+    .rec-hyperlink {
       flex-direction: row;
     }
 
-    .rec-hyperlink a img{
-      width: 243.25px;
-    }
-
-    .rec-container h1 {
-      text-align: center;
-    }
-
-    .rec-container-inner img {
-      width: 400px;
-    }
-    
     .rec-hyperlink a img {
-      width: 195px;
+      width: 105px;
     }
 
-  }
-
-  @media (max-width: 700px) {
-    .inside-body {
-      width: 100%;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      border-left: 1.5vw solid #0e2431;
-      border-right: 1.5vw solid #0e2431;
-    }
-
-    .main-container {
-      width: 100%;
-    }
-
-    .rec-container h1 {
-      text-align: center;
-    }
-  }
-
-  @media (max-width: 450px) {
-    .rec-container-inner img {
-      width: 325px;
-    }
-    
-    .rec-hyperlink a img {
-      width: 155px;
-    }
-
-    .img-inner {
-      padding: 30px;
+    .img {
+      padding: 50px;
     }
 
     .img-inner a img {
-      height: 200px;
+      height: 10em;
       border-radius: 100%;
     }
-    
+
+   .img-inner {
+     padding: 2em;
+    }
+
     .img-sub {
       min-width: 8em;
     }
 
-    .main-container {
-      width: 100%;
-    }
-    
     .inside-body {
-      width: 100%;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      border-left: 3vw solid #0e2431;
-      border-right: 3vw solid #0e2431;
-    }
-
-    .rec-container h1 {
-    text-align: center;
-    min-width: 300px;
-    font-size: 20px;
+      font-size: 13px;
     }
   }
 
-  
 
   /* Dark Mode */
 

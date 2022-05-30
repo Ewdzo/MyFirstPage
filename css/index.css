@@ -210,8 +210,8 @@
     padding: 0 5%;
     display: flex;
     flex-direction: column;
-    gap: 2em;
-    margin-bottom: 1em;
+    margin: auto;
+    margin: min(20px);
   }
 
   .text-cont span{
@@ -260,6 +260,11 @@
   /* Responsivitity */
 
   @media (max-width: 480px) {
+
+    .img {
+      padding: 50px;
+    }
+    
     .img-inner a img {
       height: 10em;
       border-radius: 100%;
