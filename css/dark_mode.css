@@ -57,7 +57,7 @@ img[src$=".svg"] {
     border-bottom: solid 5px white;
 }
 
-.rec-container-inner img {
+.rec-main-img, .rec-container-inner div a {
     border: solid 5px white;
 }
 
