@@ -65,7 +65,16 @@ function play(i) {
     mainVideo[i].play()
 }
 
+function mute(i) {
+    if(mainVideo[i].muted){
+        mainVideo[i].muted = false;
+    } else {
+        mainVideo[i].muted = true;
+    }
+}
+
 mainImg.forEach((img, index) => {
     mainImg[`${index}`].onmouseover = function() { play(`${index}`) };
     mainImg[`${index}`].onmouseout = function() { pause(`${index}`) };
+    mainImg[`${index}`].onclick = function() { mute(`${index}`) };
 });
