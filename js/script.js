@@ -51,6 +51,7 @@ load_()
 document.querySelector('body').onload = setHeight();
 checkbox.onclick = function() {DarkMode() + save()};
 
+
 // Play Video on Mouse Over in Recommendations Page
 
 var mainImg = document.querySelectorAll('.rec-main-img img')
@@ -65,5 +66,6 @@ function play(i) {
 }
 
 mainImg.forEach((img, index) => {
-    play(`${index}`);
+    mainImg[`${index}`].onmouseover = function() { play(`${index}`) };
+    mainImg[`${index}`].onmouseout = function() { pause(`${index}`) };
 });
