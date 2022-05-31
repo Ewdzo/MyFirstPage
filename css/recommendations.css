@@ -400,7 +400,7 @@
     height: 40px;
   }
 
-/* TESTE DE HOVER */
+/* Fade-In and Fand-Out - Video + Image */
 
 .rec-main-img:hover img{
   opacity: 0;
