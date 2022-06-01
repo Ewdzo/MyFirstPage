@@ -17,4 +17,22 @@ Inside this project you will find:
 
 ---
 
-<img src="img\main-page.png" title="Main Page"></img>
+<img src="img/main-page.png" title="Main Page"></img>
+
+---
+
+<img src="img/main-page-dark.png" title="Main Page on Dark Mode"></img>
+
+---
+
+<img src="img/main-page-side-menu.png" title="Side Navigation Menu at Main Page"></img>
+
+---
+
+<img src="img/main-page-mobile.png" title="Side Navigation Menu on Mobile"></img>
+
+---
+
+<img src="img/main-page.gif" title="Responsive Images"></img>
+
+---
