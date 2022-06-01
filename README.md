@@ -17,22 +17,32 @@ Inside this project you will find:
 
 ---
 
+<h3>Dark Mode</h3>
+<p align="center">
 <img src="img/main-page.png" title="Main Page"></img>
+</p>
 
----
-
+<p align="center">
 <img src="img/main-page-dark.png" title="Main Page on Dark Mode"></img>
+</p>
 
 ---
 
+<h3>Side Navigation Menu</h3>
+<p align="center">
 <img src="img/main-page-side-menu.png" title="Side Navigation Menu at Main Page"></img>
+</p>
 
 ---
 
-<img src="img/main-page-mobile.png" title="Side Navigation Menu on Mobile"></img>
+<h3>Mobile Layout</h3>
+<p align="center">
+<img src="img/main-page-mobile.png" title="Main Page on Mobile"></img>
+</p>
 
 ---
 
+<h3>Responsive Images</h3>
+<p align="center">
 <img src="img/main-page.gif" title="Responsive Images"></img>
-
----
+</p>
