@@ -341,7 +341,7 @@
       font-size: 1.45em;
       }
 
-    .rec-container-inner img {
+    .rec-container-inner div img, .rec-container-inner div video {
       width: 225px;
       padding: 7px;
     }
