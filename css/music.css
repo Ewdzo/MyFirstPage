@@ -164,6 +164,10 @@
   .img-container {
     width: 100%;
   }
+  
+  .img-container > div > div > a {
+    vertical-align: bottom;
+  }
 
   .img {
     width: 100%;
