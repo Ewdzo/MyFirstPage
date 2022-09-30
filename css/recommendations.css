@@ -1,186 +1,72 @@
-/* Principal */
+.rec-container {
+  margin: 3.5em 0;
+  width: 100%;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
 
-  .inside-body {
-    background-color: white;
-    width: 80%;
-    margin: 0 10%;
-    min-height: 100vh;
-  }
+.rec-container h1{
+  border-bottom: solid 5px #000000;
+  border-radius: 5px;
+  display: inline-block;
+  min-width: 350px;
+  padding: 0 25px;
+}
 
-  .main-container { 
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    align-items: center;
-    border-left: 2px solid rgba(255, 255, 255, 0.5);
-    border-right: 2px solid rgba(255, 255, 255, 0.5); 
-  }
+.rec-container-inner{
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-  .img-container {
-    width: 100%;
-  }
+.rec-container-inner div img{
+  width: 500px;
+  padding: 10px;
+  position: relative;
+  z-index: 2;
+}
 
-  .img-container > div > div > a {
-    vertical-align: bottom;
-  }
+.rec-container-inner div video{
+  width: 500px;
+  padding: 10px;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+}
 
-  .img {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    background-image: url(../img/background.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 100px;
-  }
+.rec-main-img {
+  position: relative;
+}
 
-  .mini-img {
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 125px;
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    z-index: 1;
-  }
+.rec-main-img, .rec-container-inner div a{
+  border: solid 5px #000000;
+}
 
-  .mini-img img {
-    height: 50px; 
-    margin: 10px;
-  }
+.rec-container-inner a img{
+  width: 230px;
+  padding: 10px;
+}
 
-  .img-sub {
-    border-bottom: solid 5px #000000;
-    border-radius: 5px;
-    text-align: center;
-    margin: 18px;
-    font-size: 1.5em;
-    min-width: 15em;
-    width: fit-content;
-  }
+.rec-text span{
+  line-height: 1.5em;
+  margin-bottom: 0.8em;
+  display: block;
+}
 
-  .img-inner {
-    backdrop-filter: blur(4px) saturate(125%);
-    -webkit-backdrop-filter: blur(4px) saturate(125%); 
-    background-color: rgba(198, 245, 255, 0.05); 
-    border-radius: 250px; 
-    border: 2px solid rgba(255, 255, 255, 0.5); 
-    display:flex; 
-    justify-content:center; 
-    padding: 50px;
-    margin: 0 auto;
-  }
+.rec-text p{
+  text-align: center;
+}
 
-  .img-inner a img {
-    height: 250px;
-    border-radius: 100%;
-  }
+.rec-hyperlink {
+  display: flex; 
+  gap: 15px; 
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-  .hypertexts {
-    margin: auto 0 10px 0;
-  }
-
-  .hypertexts a{
-    margin: 0.75em;
-  }
-
-  .hypertexts a img{
-    height: 2em;
-  }
-
-  .rec-container {
-    margin: 3.5em 0;
-    width: 100%;
-    padding: 0 5%;
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-  }
-
-  .rec-container h1{
-    border-bottom: solid 5px #000000;
-    border-radius: 5px;
-    display: inline-block;
-    min-width: 350px;
-    padding: 0 25px;
-  }
-
-  .rec-container-inner{
-    display: flex;
-    gap: 1em;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .rec-container-inner div img{
-    width: 500px;
-    padding: 10px;
-    position: relative;
-    z-index: 2;
-  }
-
-  .rec-container-inner div video{
-    width: 500px;
-    padding: 10px;
-    position: absolute;
-    left: 0;
-    opacity: 0;
-  }
-
-  .rec-main-img {
-    position: relative;
-  }
-
-  .rec-main-img, .rec-container-inner div a{
-    border: solid 5px #000000;
-  }
-
-  .rec-container-inner a img{
-    width: 230px;
-    padding: 10px;
-  }
-
-  .rec-text span{
-    line-height: 1.5em;
-    margin-bottom: 0.8em;
-    display: block;
-  }
-
-  .rec-text p{
-    text-align: center;
-  }
-
-  .rec-hyperlink {
-    display: flex; 
-    gap: 15px; 
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .footer {
-    display: flex;
-    justify-content: space-between;
-    height: 60px;
-    background-color: rgb(250, 250, 250);
-    align-items: center;
-    font-size: 0.75em;
-  }
-
-  .footer a {
-    color: black;
-    text-decoration:none;
-    margin: 0 10px;
-    font-size: 1em;
-  }
-
-  .footer a img {
-    border-radius: 100%;
-    height: 40px;
-  }
 
   /* Responsivity */
 
